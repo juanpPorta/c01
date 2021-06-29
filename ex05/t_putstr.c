@@ -1,23 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   t_putstr.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/28 14:57:59 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/29 18:05:07 by jporta           ###   ########.fr       */
+/*   Created: 2021/06/29 11:48:37 by jporta            #+#    #+#             */
+/*   Updated: 2021/06/29 13:05:32 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-
-void	ft_swap(int *a, int *b)
+#include<unistd.h>
+#include<stdio.h>
+void	ft_print(char c)
 {
-	int	t;
+	write(1, &c, 1);
+}
 
-	t = *a;
-	*a = *b;
-	*b = t;
+void	ft_putstr(char *str)
+{
+	while (*str != '\0')
+	{
+		ft_print(*str);
+		str++;
+	}
+}
+
+int main()
+{ 
+	ft_putstr("pepe\n");
 }
