@@ -6,7 +6,7 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 12:04:54 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/29 12:38:07 by jporta           ###   ########.fr       */
+/*   Updated: 2021/06/30 15:45:52 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,4 @@ int	ft_strlen(char *str)
 		i++;
 	}
 	return (i);
-}
-
-int main()
-{ 
-    int i;
-    
-	i = ft_strlen("pepepepe");
-    printf("%d", i);
 }

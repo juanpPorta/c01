@@ -6,7 +6,7 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 11:48:37 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/29 13:05:32 by jporta           ###   ########.fr       */
+/*   Updated: 2021/06/30 16:23:40 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,4 @@ void	ft_putstr(char *str)
 		ft_print(*str);
 		str++;
 	}
-}
-
-int main()
-{ 
-	ft_putstr("pepe\n");
 }
