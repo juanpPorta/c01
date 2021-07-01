@@ -6,12 +6,13 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 14:00:41 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/28 14:56:41 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/01 13:53:31 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 #include<stdio.h>
+
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
