@@ -6,14 +6,14 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 20:06:18 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/28 20:18:55 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/01 13:16:07 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 #include<stdio.h>
 
-void	t_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	y;
 	int	t;

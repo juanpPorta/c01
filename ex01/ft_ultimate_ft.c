@@ -6,14 +6,14 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 14:32:29 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/28 18:39:41 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/01 13:07:12 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 #include<stdio.h>
 
-void	ft_umtimate_ft(int *********nbr)
+void	ft_utimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }

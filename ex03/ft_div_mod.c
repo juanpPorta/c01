@@ -6,14 +6,14 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 19:34:25 by jporta            #+#    #+#             */
-/*   Updated: 2021/07/01 12:19:48 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/01 13:14:28 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 #include<stdio.h>
 
-int	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
 	int	d;
 	int	m;
